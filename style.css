@@ -1,0 +1,65 @@
+.header{text-align:center;color:grey;}
+spam{color:red;font-size:25px;font-weight:bold;}
+body{background-color:silver;}
+p{font-family:serif;}
+
+/*■■■■■■ NAV BAR■■■■■■■ */
+#navbar{background-color:black;display:inline-flex;align-items:center;height:50px;border:solid 3px grey;border-radius:2px;margin-bottom:10px;position:sticky;top:0;z-index:1;width:100%;}
+
+#navbar a img{width:46px;margin-right:0;padding-left:12px;}
+ul{display:flex;padding-left:5px;}
+
+ul li{list-style:none;}
+ul a{text-decoration:none;font-size:12px;font-family:serif;color:cyan;padding-left:12px;}
+ul a:hover{background-color:#ff95fc;}
+
+/*■■■■■■■■HOME ■■■■■■■ */
+#home{background-color:grey;border:solid 7px grey;border-radius:5px ;}
+#home h1{text-align:center;color:black;font-family:serif;}
+#home img{width:100%;font-size:20px;}
+
+/*■■■■■■ IMAGES ■■■■■■■ */
+.images{display:block;width:100%;margin-top:4%;background-color:grey;}
+.images img {width:100%;margin-top:5px;margin-bottom:5px;}
+
+.child{width:100%;display:block;margin-top:4%;margin-bottom:4%;border:solid 5px #95ffe0;background-color:white;}
+.child img{width:49%;padding-left:2,5%;}
+
+.imagecomments{background-color:#ffffff;display:flex;width:100%;border:ridge 5px  #00ffea;align-items:center;}
+.imagecomments p{width:30%;padding-left:10px;font-weight:bold;}
+.imagecomments img{width:70%;background-color:black;}
+
+/* ■■■■■■■ VIDEOS ■■■■■*/
+#videos{width:100%;background-color:#15f5ff;border:solid 5px grey;margin-top:20px;border-radius:5px;margin-bottom:20px;margin-left:5px;margin-right:5px;}
+#videos video{width:90%;margin:4%;border:ridge 5px red;}
+
+
+
+/*■■■■■■ MOTIVATION ■■■■■*/
+.motivation{text-align:center;background-color:#ffffff;border:solid 5px #95ffe0;border-radius:solid 5px ;margin-top:3%;font-family:serif;font-weight:bold;}
+/*■■■■■FOLLOWE STYLE ■■■■■*/
+
+.followe{background-color:#2bff6d;width:100%;display:flex;}
+.followe p{padding:5px;}
+.followe div{display:grid;width:40%;padding:20px;}
+.followe div a{text-decoration:none;}
+
+/* ■■■■■ MEDIA QUERY ■■■■■ */
+
+@media screen and (min-width:500px){
+#navbar{height:130px;}
+#navbar a {font-size:28.5px;}
+#navbar a img{width:123.7px;}
+
+ul a {font-size:28px;padding-left:40px}
+#home h1{font-size:45px;}
+.motivtion ,h1{font-size:60px;}
+.motovation ,h3,p,spam{font-size:45px}
+
+
+				
+}
+
+
+
+
